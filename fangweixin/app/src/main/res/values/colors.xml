@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--窗体颜色 -->
+    <color name="windows_color">#F5F5F5</color>
+    <color name="bar_color">#232325</color>
+    <color name="popbg_color">#49484A</color>
+    <color name="light_notes_color">#ff999999</color>
+    <color name="link_color">#ff4abad7</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tab_color">#848282</color>
+    <color name="tab_color_s">#0dd21d</color>
+    <color name="send_bt_color">#0cb319</color>
+    <color name="tiem_bg_color">#f4cac7c7</color>
+    <color name="dot_color">#ff0000</color>
+    <color name="line_color">#beb9b9</color>
+    <color name="black2">#ffeeeeee</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#ff808080</color>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AddActivity">
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/button_bg"
+        android:orientation="vertical">
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2"
+                    android:gravity="center"
+                    android:text="注册界面"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25dp" />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="名称"
+
+                    android:textColor="#FFFFFF" />
+                <EditText
+                    android:id="@+id/adname"
+                    android:background="@drawable/edit_bg"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp" />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="手机号码"
+                    android:textColor="#FFFFFF" />
+                <EditText
+                    android:id="@+id/phone"
+                    android:layout_width="200dp"
+                    android:background="@drawable/edit_bg"
+                    android:layout_height="40dp"
+                     />
+            </TableRow>
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="email"
+                    android:textColor="#FFFFFF" />
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="200dp"
+                    android:background="@drawable/edit_bg"
+                    android:layout_height="40dp"
+                    />
+            </TableRow>
+
+
+
+        </TableLayout>
+        <Button
+            android:id="@+id/addfriend"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#389FD6"
+            android:textSize="20dp"
+            android:text="添加联系人" />
+        <TextView
+            android:id="@+id/addfriendview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black2"
+            />
+    </LinearLayout>
+</LinearLayout>
